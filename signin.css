@@ -1,0 +1,78 @@
+.fullcontainer{
+	max-width: 400px;
+	max-height:400px;
+	border: solid yellow 1px;
+	padding-bottom: 25px;
+	margin-top:200px;
+	background:transparent;
+}
+h1{
+	text-align: center;
+
+}
+.details{
+	font-size:20px;
+	color: yellow;
+	font-style: bold;
+	font-weight: 600px;
+}
+.scontainer{
+	border: solid yellow; 1px;
+	border-radius: 10px;
+	height: 40px;
+	line-height: 40px;
+
+}
+.barno{
+	border: none;
+	outline: none;
+	border-radius: 20px;
+	margin-left: 10px;
+	background: transparent;
+	height: 40px;
+}
+.barno::placeholder{
+	color: yellow;
+}
+i{
+	margin-right: 5px;
+	color: yellow;
+}
+.adaka::placeholder{
+	color: yellow;
+}
+body{
+	background-size: cover;
+	background-repeat: 0;
+	background-position: center;
+}
+.adaka{
+	background:transparent;
+	height: 40px;
+	border: solid yellow 1px;
+	width: 200px;
+	border-radius:10px;
+}
+.button{
+	width:200px;
+	background-color: yellow;
+	height: 40px;
+	border-radius: 10px;
+}
+.button:hover{
+	background-color:blue;
+	cursor: pointer;
+	border-color: red;
+}
+h1{
+	color: yellow;
+	padding-top: 0px;
+}
+input{
+	color: yellow;
+}
+a{
+	color: yellow;
+}
+
+
