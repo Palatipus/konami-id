@@ -12,12 +12,12 @@ h1{
 }
 .details{
   font-size:20px;
-  color: yellow;
+  color: blue;
   font-style: bold;
   font-weight: 600px;
 }
 .scontainer{
-  border: solid yellow; 1px;
+  border: solid red; 1px;
   border-radius: 10px;
   height: 40px;
   line-height: 40px;
@@ -32,7 +32,7 @@ h1{
   height: 40px;
 }
 .barno::placeholder{
-  color: yellow;
+  color: white;
 }
 i{
   margin-right: 5px;
