@@ -12,12 +12,12 @@ h1{
 }
 .details{
   font-size:20px;
-  color: blue;
+  color: white;
   font-style: bold;
   font-weight: 600px;
 }
 .scontainer{
-  border: solid red; 1px;
+  border: solid white; 1px;
   border-radius: 10px;
   height: 40px;
   line-height: 40px;
@@ -36,10 +36,10 @@ h1{
 }
 i{
   margin-right: 5px;
-  color: yellow;
+  color: blue;
 }
 .adaka::placeholder{
-  color: yellow;
+  color: white;
 }
 body{
   background-size: cover;
