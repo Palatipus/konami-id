@@ -82,14 +82,23 @@ a {
 
 body {
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 /* Media Query for Mobile Screens */
 @media (max-width: 768px) {
+  body {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+
   .fullcontainer {
-    max-width: 50%;
+    width: 90%;
+    max-width: none;
     margin-top: 50px;
   }
 
