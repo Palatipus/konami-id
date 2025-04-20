@@ -82,7 +82,7 @@ a {
 
 body {
   background-size: cover;
-  background-position: center;
+  background-position: center 30%;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -90,8 +90,8 @@ body {
 /* Media Query for Mobile Screens */
 @media (max-width: 768px) {
   body {
-    background-size: contain;
-    background-position: center;
+    background-size: cover; /* Changed from 'contain' to 'cover' */
+    background-position: center 40%; /* Adjust to show Messi on mobile */
     background-repeat: no-repeat;
     background-attachment: scroll;
   }
