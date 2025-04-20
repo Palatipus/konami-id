@@ -89,7 +89,7 @@ body {
 /* Media Query for Mobile Screens */
 @media (max-width: 768px) {
   .fullcontainer {
-    max-width: 90%;
+    max-width: 50%;
     margin-top: 50px;
   }
 
